@@ -34,7 +34,7 @@ namespace FFXIVOpcodes.Global
     /**
     * Server IPC Zone Type Codes.
     */
-    enum ServerZoneIpcType : ushort
+    public enum ServerZoneIpcType : ushort
     {
         // Server Zone
         PlayerSetup = 0x0121, // updated 7.0
